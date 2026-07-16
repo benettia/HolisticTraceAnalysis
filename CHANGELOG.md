@@ -6,7 +6,7 @@ Versioning](https://semver.org/spec/v2.0.0.html).
 ## [Unreleased]
 
 #### Fixed
-- Fixed straggler analysis not detecting communication kernels on NCCL >= 2.12 traces due to the `ncclDevKernel_*` kernel rename.
+- Fixed straggler analysis not detecting communication kernels on traces from modern NCCL versions due to the `ncclDevKernel_*` kernel rename.
 
 ## [0.6.1] - 2026-04-21
 
